@@ -10,7 +10,6 @@
     "hexo-generator-archive": "^0.1.0",
     "hexo-generator-category": "^0.1.0",
     "hexo-generator-index": "^0.1.0",
-    "hexo-generator-sitemap": "^0.2.0",
     "hexo-generator-tag": "^0.1.0",
     "hexo-migrator-wordpress": "^0.1.1",
     "hexo-renderer-ejs": "^0.1.0",
