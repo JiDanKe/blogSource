@@ -5,14 +5,14 @@
 # Site
 title: JiDanKe
 subtitle:
-description: JiDanKe Blog
-author: JiDanKers
+description: JiDanKe's Blog
+author: JiDanKe
 email:
 language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://jidanke.github.io/
+url: http://blog.jidanke.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -20,6 +20,10 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 permalink_defaults:
+
+#sitemap
+#sitemap:
+#  path: sitemap.xml
 
 # Directory
 source_dir: source
@@ -79,7 +83,9 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: landscape
+# theme: landscape
+# theme: bslight
+theme: hexo-theme-light
 exclude_generator:
 
 # Deployment
