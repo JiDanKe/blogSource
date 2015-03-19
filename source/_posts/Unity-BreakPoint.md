@@ -4,7 +4,7 @@ categories: Unity3D
 tags: Debug
 ---
 
-Unity能使用自带的MonoDevelop进行断点调试，但这个功能做的很不友好，经常Attach进程无响应。有时候断点信息可以很方便定位问题，这里就记录一个方法，可以小心翼翼的“避开雷区”，成功连接Unity和MonoDevelop进行断点调试。
+有时候调试程序，断点信息可以很方便定位问题，Unity支持使用自带的MonoDevelop进行断点调试，但这个功能做的很不友好，经常Attach进程无响应。这里就记录一个成功率比较高的方法，避免浪费时间。
 
 1. 打开Unity、MonoDevelop
 
