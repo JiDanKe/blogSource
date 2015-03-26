@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose install where, deps [ '/Users/wuzhou/Documents/JDKblogSource',
+4 verbose install   [ 'hexo',
+4 verbose install     'hexo-deployer-git',
+4 verbose install     'hexo-generator-archive',
+4 verbose install     'hexo-generator-category',
+4 verbose install     'hexo-generator-index',
+4 verbose install     'hexo-generator-tag',
+4 verbose install     'hexo-migrator-image',
+4 verbose install     'hexo-renderer-ejs',
+4 verbose install     'hexo-renderer-marked',
+4 verbose install     'hexo-renderer-stylus',
+4 verbose install     'hexo-server' ] ]
+5 verbose install where, peers [ '/Users/wuzhou/Documents/JDKblogSource', [] ]
+6 info preinstall hexo-site@0.0.0
+7 silly cache add args [ 'hexo-migrator-image@git://github.com/fishg/hexo-migrator-image',
+7 silly cache add   null ]
+8 verbose cache add spec hexo-migrator-image@git://github.com/fishg/hexo-migrator-image
+9 verbose already installed skipping hexo-renderer-ejs@^0.1.0 /Users/wuzhou/Documents/JDKblogSource
+10 verbose already installed skipping hexo-renderer-marked@^0.2.4 /Users/wuzhou/Documents/JDKblogSource
+11 verbose already installed skipping hexo-renderer-stylus@^0.2.0 /Users/wuzhou/Documents/JDKblogSource
+12 verbose already installed skipping hexo-server@^0.1.2 /Users/wuzhou/Documents/JDKblogSource
+13 silly cache add parsed spec { raw: 'hexo-migrator-image@git://github.com/fishg/hexo-migrator-image',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'hexo-migrator-image',
+13 silly cache add   rawSpec: 'git://github.com/fishg/hexo-migrator-image',
+13 silly cache add   spec: 'git://github.com/fishg/hexo-migrator-image',
+13 silly cache add   type: 'git' }
+14 verbose addRemoteGit u="git://github.com/fishg/hexo-migrator-image" silent=false
+15 silly addRemoteGit normalized { url: 'git://github.com/fishg/hexo-migrator-image',
+15 silly addRemoteGit   branch: 'master' }
+16 silly addRemoteGit v git-github-com-fishg-hexo-migrator-image-6e1dd95d
+17 verbose addRemoteGit /Users/wuzhou/.npm/_git-remotes/git-github-com-fishg-hexo-migrator-image-6e1dd95d not in flight; cloning
+18 verbose already installed skipping hexo@^3.0.0 /Users/wuzhou/Documents/JDKblogSource
+19 info git [ 'clone',
+19 info git   '--template=/Users/wuzhou/.npm/_git-remotes/_templates',
+19 info git   '--mirror',
+19 info git   'git://github.com/fishg/hexo-migrator-image',
+19 info git   '/Users/wuzhou/.npm/_git-remotes/git-github-com-fishg-hexo-migrator-image-6e1dd95d' ]
+20 verbose already installed skipping hexo-generator-archive@^0.1.0 /Users/wuzhou/Documents/JDKblogSource
+21 verbose already installed skipping hexo-deployer-git@^0.0.3 /Users/wuzhou/Documents/JDKblogSource
+22 verbose already installed skipping hexo-generator-category@^0.1.0 /Users/wuzhou/Documents/JDKblogSource
+23 verbose already installed skipping hexo-generator-index@^0.1.0 /Users/wuzhou/Documents/JDKblogSource
+24 verbose already installed skipping hexo-generator-tag@^0.1.0 /Users/wuzhou/Documents/JDKblogSource
+25 error git clone git://github.com/fishg/hexo-migrator-image Cloning into bare repository '/Users/wuzhou/.npm/_git-remotes/git-github-com-fishg-hexo-migrator-image-6e1dd95d'...
+25 error git clone git://github.com/fishg/hexo-migrator-image fatal: unable to connect to github.com:
+25 error git clone git://github.com/fishg/hexo-migrator-image github.com[0: 192.30.252.130]: errno=Operation timed out
+26 verbose stack Error: Command failed: git clone --template=/Users/wuzhou/.npm/_git-remotes/_templates --mirror git://github.com/fishg/hexo-migrator-image /Users/wuzhou/.npm/_git-remotes/git-github-com-fishg-hexo-migrator-image-6e1dd95d
+26 verbose stack Cloning into bare repository '/Users/wuzhou/.npm/_git-remotes/git-github-com-fishg-hexo-migrator-image-6e1dd95d'...
+26 verbose stack fatal: unable to connect to github.com:
+26 verbose stack github.com[0: 192.30.252.130]: errno=Operation timed out
+26 verbose stack
+26 verbose stack
+26 verbose stack     at ChildProcess.exithandler (child_process.js:744:12)
+26 verbose stack     at ChildProcess.emit (events.js:110:17)
+26 verbose stack     at maybeClose (child_process.js:1008:16)
+26 verbose stack     at Socket.<anonymous> (child_process.js:1176:11)
+26 verbose stack     at Socket.emit (events.js:107:17)
+26 verbose stack     at Pipe.close (net.js:476:12)
+27 verbose cwd /Users/wuzhou/Documents/JDKblogSource
+28 error Darwin 14.1.0
+29 error argv "node" "/usr/local/bin/npm" "install"
+30 error node v0.12.0
+31 error npm  v2.5.1
+32 error code 128
+33 error Command failed: git clone --template=/Users/wuzhou/.npm/_git-remotes/_templates --mirror git://github.com/fishg/hexo-migrator-image /Users/wuzhou/.npm/_git-remotes/git-github-com-fishg-hexo-migrator-image-6e1dd95d
+33 error Cloning into bare repository '/Users/wuzhou/.npm/_git-remotes/git-github-com-fishg-hexo-migrator-image-6e1dd95d'...
+33 error fatal: unable to connect to github.com:
+33 error github.com[0: 192.30.252.130]: errno=Operation timed out
+34 error If you need help, you may report this error at:
+34 error     <http://github.com/npm/npm/issues>
+35 verbose exit [ 1, true ]
