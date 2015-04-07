@@ -26,4 +26,7 @@ Wall、Objects由寻路组件定义，如下图
 
 ![](/images/c77bd52ebf3e3a13a2b0352cb7457bd728a8f0a8)
 
+###Tips
+1. 在 Unity 3D 中 Collider 分为两大类：一类是普通 Collider，这一类可以在 3D 或者 2D 环境中使用; 另一类为 Collider 2D，一般在 2D 游戏中使用。与此对应的物理系统也分为 Physics 和 Physics 2D 两类。在进行射线（Ray）检测 Collider 碰撞时要注意 Collider 一定要和相应的物理系统匹配，比如：Collider 2D 要用 Physics 2D 发出的射线才能检测到碰撞。如果发现射线检测不到 Collider 可以检查一下 Collider 是否与物理系统相匹配。
+
 如果还有其他Collider的用途，望大家补充。
