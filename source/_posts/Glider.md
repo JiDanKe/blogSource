@@ -1,8 +1,10 @@
-title: "Glider介绍"
+title: "如何解决Unity3D协同开发的问题？"
 date: 2015-04-08 22:00:51
 categories: Unity3D
 tags: Glider
 ---
+Unity3D中场景文件的内容组织方式本身决定了冲突合并是个头疼的问题，这个只能等Unity3D官方来解决。在此之前，我们还是需要面对这个问题，并解决它。
+
 ![Glider](/images/962f92bca51052d16c41fe76c43a6b187e4a97f5.png)
 
 Glider是为Unity3D开发的一个动态模块管理插件，几个意思呢？
