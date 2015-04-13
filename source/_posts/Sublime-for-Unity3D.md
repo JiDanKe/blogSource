@@ -1,4 +1,4 @@
-title: "Sublime_for_Unity3D"
+title: "Unity3D使用Sublime作为编辑器"
 date: 2015-04-13 10:42:35
 categories: Unity3D
 tags: Sublime
