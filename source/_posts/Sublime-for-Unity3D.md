@@ -19,7 +19,7 @@ OmniSharp**只支持Sublime Text 3**，请在Package Control中进行安装。
 
 菜单选择 Preferences > Settings - More > Syntax Specific - User
 
-![OmniSharp设置.png](http://upload-images.jianshu.io/upload_images/301341-6415df4782be1324.png)
+![OmniSharp设置.png](/images/4e00efe8f4c0be8ba100cf95a02bb048952cc12c.png)
 
 填入以下内容并保存
 
@@ -41,7 +41,7 @@ TIPS:后面必须加的”Unity3D Build System”参数，否则不能正常运�
 
 #步骤四：设置Unity3D的默认编辑器为Sublime
 
-![设置Unity3D的默认脚本编辑器.png](http://upload-images.jianshu.io/upload_images/301341-4c5dae593c415c69.png)
+![设置Unity3D的默认脚本编辑器.png](/images/9b3959bc0da7d1af66af6e97e2df46b137022bb9.png)
 
 #步骤五：创建项目的Sublime工程文件
 1. 在Sublime中，选择菜单 File > Open…
