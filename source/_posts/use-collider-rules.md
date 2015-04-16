@@ -10,7 +10,7 @@ tags: 规范
 ![](/images/d85b01be221e01d51d8aae9ff901ff212dc74433)
 
 Player对象里的Collider用来表示人物占用的体积，包含意义如下：
-人物移动时，障碍物碰撞处理，避免人物走到障碍物里面的基本保证。在SimpleCharacterController2D中定义作为障碍物的Collider在哪个Layer。
+人物移动时，障碍物碰撞处理，避免人物走到障碍物里面的基本保证；做为攻击范围圈定的碰撞检测器。在SimpleCharacterController2D中定义作为障碍物的Collider在哪个Layer。
 
 ![](/images/e85a67d8e5411ac7c40f60fc864637daf959e7d6)
 
