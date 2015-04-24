@@ -1,6 +1,6 @@
 title: 闭包(closures)
 date: 2015-04-24 19:14:21
-tags: [closures, python, javascript, c#, first-class, 闭包, 匿名函数, 函数对象, 自由变量]
+tags: [closures, python, javascript, C#, first-class, 闭包, 匿名函数, 函数对象, 自由变量]
 categories: 编程基础
 ---
 ### 1. 摘要
@@ -167,7 +167,7 @@ for(var j=0; j <f1.length; j++) {
 ```
 
 等价的C#实现代码：
-```c#
+```cs
 class Program
     {
         static void Main(string[] args)
@@ -209,9 +209,9 @@ class Program
 >>> 2
 ```
 
-对于有函数（方法）作用域的c#，我们只需要对上述代码略作修改，给每个自由变量不同的引用环境（不同的作用域），很容易修正这个问题（***多说一句，在c#中闭包的实现是依靠编译器自动生成类来封装变量和函数***）。修改后的代码如下所示：
+对于有函数（方法）作用域的C#，我们只需要对上述代码略作修改，给每个自由变量不同的引用环境（不同的作用域），很容易修正这个问题（***多说一句，在C#中闭包的实现是依靠编译器自动生成类来封装变量和函数***）。修改后的代码如下所示：
 
-```c#
+```cs
 class Program
     {
         static void Main(string[] args)
@@ -285,7 +285,7 @@ f(1); //3
 
 等价的C#版本：
 
-```c#
+```cs
 static Func<Int32, Int32> Foo(Int32 n)
 {
     Func<Int32, Int32> ret = (i) => n += i;
