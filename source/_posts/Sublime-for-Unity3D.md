@@ -16,8 +16,9 @@ tags: Sublime
 
 #步骤二：为Sublime安装OmniSharp插件
 OmniSharp**只支持Sublime Text 3**，请在Package Control中进行安装。
+在Sublime里按Cmd+Shift+P，输入“Install Package”，回车。在PackageControl的列表中搜索“OmniSharp”，进行安装。
 
-菜单选择 Preferences > Settings - More > Syntax Specific - User
+安装完后，菜单选择 Preferences > Settings - More > Syntax Specific - User
 
 ![OmniSharp设置.png](/images/4e00efe8f4c0be8ba100cf95a02bb048952cc12c.png)
 
