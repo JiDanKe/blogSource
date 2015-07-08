@@ -1,4 +1,4 @@
-title: "nGUI之AutoLayout详解——minHeight,preferredHeight,flexibleHeight"
+title: "uGUI之AutoLayout详解——minHeight,preferredHeight,flexibleHeight"
 date: 2015-07-07 20:39:12
 categories: Unity3D
 tags: AutoLayout
